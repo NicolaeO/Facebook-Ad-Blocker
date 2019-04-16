@@ -1,7 +1,5 @@
-
 // for the first time call
 cleanUp();
-
 // Clean up every time user scrolls
 let last_known_scroll_position = 0;
 let ticking = false;
@@ -18,7 +16,6 @@ window.addEventListener('scroll', function(e) {
 
 
 function cleanUp(){
-    console.log("scrolled");
     var elements = document.querySelectorAll('[data-testid="fbfeed_story"]');
     for(let element of elements){
         var sponsoredClass = element.getElementsByClassName("z_1p4ow-s_n_");
@@ -28,7 +25,6 @@ function cleanUp(){
         }
         if(sponsoredText === "Sponsored"){
             element.remove();
-            console.log("Removed!");
         }
     }
 }

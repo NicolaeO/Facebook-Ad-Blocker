@@ -1,7 +1,7 @@
 {
-    "name" : "Facebook Ad Blocker",
+    "name" : "fbAdBlocker",
     "version": "1.0",
-    "description": "this simple js code will remove Shitty ads from faebook",
+    "description": "this simple js code will remove  ads from facebook",
     "manifest_version": 2,
     "author": "Nicolae Orlov",
 
